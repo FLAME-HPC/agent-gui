@@ -1,0 +1,1042 @@
+------------------------------------------------------------------------
+r44 | vst | 2009-03-29 16:37:09 +0300 (Sun, 29 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/include/auxiliary.h
+   M /trunk/libxmm2.pro
+   M /trunk/src/XVariableList.cpp
+   M /trunk/src/auxiliary.cpp
+   M /trunk/test/01/main.cpp
+
+cleanup
+------------------------------------------------------------------------
+r43 | vst | 2008-11-25 21:17:29 +0200 (Tue, 25 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/include/globals.h
+
+version changed
+
+------------------------------------------------------------------------
+r42 | vst | 2008-11-25 21:04:33 +0200 (Tue, 25 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/test/01/libxmm2-test-01.pro
+   M /trunk/test/01/main.cpp
+
+ - Windows compilation and linkage is now added
+
+------------------------------------------------------------------------
+r41 | vst | 2008-11-25 20:59:29 +0200 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/src/XFunction.cpp
+   M /trunk/test/01/main.cpp
+
+bug fix: outmsg was going into inmsg
+------------------------------------------------------------------------
+r40 | vst | 2008-11-25 20:46:26 +0200 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/src/XFunction.cpp
+
+output messages are now corrected through pending operation, too.
+------------------------------------------------------------------------
+r39 | vst | 2008-11-25 20:06:06 +0200 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/include/XIOMessage.h
+   M /trunk/include/XModel.h
+   M /trunk/src/XFunction.cpp
+   M /trunk/src/XIOMessage.cpp
+   M /trunk/src/XModel.cpp
+   M /trunk/src/XModelList.cpp
+   A /trunk/test
+   A /trunk/test/01
+   A /trunk/test/01/compilation
+   A /trunk/test/01/libxmm2-test-01.pro
+   A /trunk/test/01/main.cpp
+   A /trunk/test/01/release
+
+bug fix: while parsing io messages, the unfound messages are set to pending list and afterwards reparsed again, tests also added
+------------------------------------------------------------------------
+r38 | vst | 2008-11-25 15:55:39 +0200 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/src/XFunction.cpp
+
+bug fixed for getting the filters right
+------------------------------------------------------------------------
+r37 | vst | 2008-11-25 13:23:37 +0200 (Tue, 25 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/include/XIOMessage.h
+   M /trunk/src/XFunction.cpp
+   M /trunk/src/XIOMessage.cpp
+   M /trunk/src/XInMessageList.cpp
+
+function input filters implemented
+------------------------------------------------------------------------
+r36 | vst | 2008-11-17 00:36:00 +0200 (Mon, 17 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/include/XModel.h
+   M /trunk/src/XInMessageList.cpp
+   M /trunk/src/XModel.cpp
+   M /trunk/src/XModelList.cpp
+   M /trunk/src/XOutMessageList.cpp
+
+changes made required for XMME's in/out messages dialogs
+------------------------------------------------------------------------
+r35 | vst | 2008-11-14 19:29:46 +0200 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   D /libxmm2
+   A /trunk (from /libxmm2:34)
+
+cleanup completed
+------------------------------------------------------------------------
+r34 | vst | 2008-11-14 19:29:16 +0200 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   D /branches/libxmm2
+   A /libxmm2 (from /trunk/libxmm2:32)
+   D /trunk
+
+trying to cleanup
+------------------------------------------------------------------------
+r33 | vst | 2008-11-14 19:23:50 +0200 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   A /trunk/Doxyfile (from /trunk/libxmm2/Doxyfile:32)
+   A /trunk/compilation (from /trunk/libxmm2/compilation:32)
+   A /trunk/docs (from /trunk/libxmm2/docs:32)
+   A /trunk/include (from /trunk/libxmm2/include:32)
+   A /trunk/lib (from /trunk/libxmm2/lib:32)
+   D /trunk/libxmm2
+   A /trunk/libxmm2.pro (from /trunk/libxmm2/libxmm2.pro:32)
+
+files moved to up
+------------------------------------------------------------------------
+r32 | vst | 2008-11-14 19:22:47 +0200 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   A /trunk/libxmm2 (from /branches/libxmm2:30)
+   M /trunk/libxmm2/include/globals.h
+
+old branch is now the new trunk
+------------------------------------------------------------------------
+r31 | vst | 2008-11-14 19:22:05 +0200 (Fri, 14 Nov 2008) | 1 line
+Changed paths:
+   D /trunk/LICENSE
+   D /trunk/bin
+   D /trunk/compilation
+   D /trunk/config
+   D /trunk/demo
+   D /trunk/doc
+   D /trunk/headache.cfg
+   D /trunk/header.txt
+   D /trunk/include
+   D /trunk/lib
+   D /trunk/libxmm2.pro
+   D /trunk/target
+   D /trunk/test
+   D /trunk/tmp
+
+no need for the old trunk
+------------------------------------------------------------------------
+r30 | vst | 2008-10-10 21:31:46 +0300 (Fri, 10 Oct 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2/libxmm2.pro
+
+
+------------------------------------------------------------------------
+r29 | vst | 2008-09-25 02:59:38 +0300 (Thu, 25 Sep 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2/include/XAgent.h
+   M /branches/libxmm2/include/XAgentList.h
+   M /branches/libxmm2/include/XDataType.h
+   M /branches/libxmm2/include/XDataTypeList.h
+   M /branches/libxmm2/include/XEnvironment.h
+   M /branches/libxmm2/include/XFile.h
+   M /branches/libxmm2/include/XFileList.h
+   M /branches/libxmm2/include/XFunction.h
+   M /branches/libxmm2/include/XFunctionList.h
+   M /branches/libxmm2/include/XMessage.h
+   M /branches/libxmm2/include/XMessageList.h
+   M /branches/libxmm2/include/XModel.h
+   M /branches/libxmm2/include/XModelList.h
+   M /branches/libxmm2/include/XTimeUnit.h
+   M /branches/libxmm2/include/XTimeUnitList.h
+   M /branches/libxmm2/include/XVariable.h
+   M /branches/libxmm2/include/XVariableList.h
+   M /branches/libxmm2/src/XAgent.cpp
+   M /branches/libxmm2/src/XAgentList.cpp
+   M /branches/libxmm2/src/XDataType.cpp
+   M /branches/libxmm2/src/XDataTypeList.cpp
+   M /branches/libxmm2/src/XEnvironment.cpp
+   M /branches/libxmm2/src/XFile.cpp
+   M /branches/libxmm2/src/XFileList.cpp
+   M /branches/libxmm2/src/XFunction.cpp
+   M /branches/libxmm2/src/XFunctionList.cpp
+   M /branches/libxmm2/src/XMessage.cpp
+   M /branches/libxmm2/src/XMessageList.cpp
+   M /branches/libxmm2/src/XModel.cpp
+   M /branches/libxmm2/src/XModelList.cpp
+   M /branches/libxmm2/src/XTimeUnit.cpp
+   M /branches/libxmm2/src/XTimeUnitList.cpp
+   M /branches/libxmm2/src/XVariable.cpp
+   M /branches/libxmm2/src/XVariableList.cpp
+
+missing tags implemented
+------------------------------------------------------------------------
+r28 | vst | 2008-07-24 21:34:10 +0300 (Thu, 24 Jul 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2
+   M /branches/libxmm2/docs
+   M /branches/libxmm2/lib
+
+some files/folders ignored
+------------------------------------------------------------------------
+r27 | vst | 2008-07-24 21:32:45 +0300 (Thu, 24 Jul 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2
+   M /branches/libxmm2/Doxyfile
+   M /branches/libxmm2/docs
+   M /branches/libxmm2/include/XModel.h
+
+documentation generation script reconfigures
+------------------------------------------------------------------------
+r26 | vst | 2008-07-24 20:05:59 +0300 (Thu, 24 Jul 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2/include/globals.h
+
+revision id information added
+------------------------------------------------------------------------
+r25 | vst | 2008-07-24 19:49:03 +0300 (Thu, 24 Jul 2008) | 1 line
+Changed paths:
+   D /branches/libxmm2/lib/libxmm2.so
+   D /branches/libxmm2/lib/libxmm2.so.0
+   D /branches/libxmm2/lib/libxmm2.so.0.0
+   D /branches/libxmm2/lib/libxmm2.so.0.0.2
+
+no need for binaries
+------------------------------------------------------------------------
+r24 | vst | 2008-07-24 19:48:37 +0300 (Thu, 24 Jul 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2/include/XFile.h
+   M /branches/libxmm2/lib/libxmm2.so.0.0.2
+   M /branches/libxmm2/src/XFile.cpp
+   M /branches/libxmm2/src/XFunction.cpp
+
+some missing functions implemented
+------------------------------------------------------------------------
+r23 | vst | 2008-07-23 19:08:45 +0300 (Wed, 23 Jul 2008) | 1 line
+Changed paths:
+   A /branches/libxmm2/include/XDataType.h
+   A /branches/libxmm2/include/XDataTypeList.h
+   M /branches/libxmm2/include/XEnvironment.h
+   A /branches/libxmm2/include/XFile.h
+   A /branches/libxmm2/include/XFileList.h
+   M /branches/libxmm2/include/XInMessageList.h
+   M /branches/libxmm2/include/XM.h
+   M /branches/libxmm2/include/XMessage.h
+   M /branches/libxmm2/include/XMessageList.h
+   M /branches/libxmm2/include/XModel.h
+   M /branches/libxmm2/include/XOutMessageList.h
+   A /branches/libxmm2/include/XTimeUnit.h
+   A /branches/libxmm2/include/XTimeUnitList.h
+   M /branches/libxmm2/lib/libxmm2.so.0.0.2
+   M /branches/libxmm2/libxmm2.pro
+   M /branches/libxmm2/src/XAgent.cpp
+   A /branches/libxmm2/src/XDataType.cpp
+   A /branches/libxmm2/src/XDataTypeList.cpp
+   M /branches/libxmm2/src/XEnvironment.cpp
+   A /branches/libxmm2/src/XFile.cpp
+   A /branches/libxmm2/src/XFileList.cpp
+   M /branches/libxmm2/src/XFunction.cpp
+   M /branches/libxmm2/src/XInMessageList.cpp
+   M /branches/libxmm2/src/XMessage.cpp
+   M /branches/libxmm2/src/XMessageList.cpp
+   M /branches/libxmm2/src/XModel.cpp
+   M /branches/libxmm2/src/XOutMessageList.cpp
+   A /branches/libxmm2/src/XTimeUnit.cpp
+   A /branches/libxmm2/src/XTimeUnitList.cpp
+
+completing the rest of the node types
+------------------------------------------------------------------------
+r22 | vst | 2008-07-22 15:40:06 +0300 (Tue, 22 Jul 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2/include/XModel.h
+   M /branches/libxmm2/lib/libxmm2.so.0.0.2
+   M /branches/libxmm2/src/XAgentList.cpp
+   M /branches/libxmm2/src/XInMessageList.cpp
+   M /branches/libxmm2/src/XModel.cpp
+   M /branches/libxmm2/src/XOutMessageList.cpp
+
+compilation bugs removed
+------------------------------------------------------------------------
+r21 | vst | 2008-07-22 14:30:47 +0300 (Tue, 22 Jul 2008) | 1 line
+Changed paths:
+   M /branches/libxmm2/XMML.dtd
+   D /branches/libxmm2/docs/html
+
+XMML.dtd format corrected, docs contents removed
+------------------------------------------------------------------------
+r20 | vst | 2008-07-22 14:27:48 +0300 (Tue, 22 Jul 2008) | 1 line
+Changed paths:
+   A /branches/libxmm2
+   A /branches/libxmm2/Doxyfile
+   A /branches/libxmm2/XMML.dtd
+   A /branches/libxmm2/compilation
+   A /branches/libxmm2/docs
+   A /branches/libxmm2/docs/html
+   A /branches/libxmm2/docs/html/XAgentList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XAgentList_8cpp.html
+   A /branches/libxmm2/docs/html/XAgentList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XAgentList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XAgentList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XAgentList_8h-source.html
+   A /branches/libxmm2/docs/html/XAgentList_8h.html
+   A /branches/libxmm2/docs/html/XAgentList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XAgentList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XAgentList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XAgentList_8h__incl.map
+   A /branches/libxmm2/docs/html/XAgentList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XAgentList_8h__incl.png
+   A /branches/libxmm2/docs/html/XAgent_8cpp-source.html
+   A /branches/libxmm2/docs/html/XAgent_8cpp.html
+   A /branches/libxmm2/docs/html/XAgent_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XAgent_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XAgent_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XAgent_8h-source.html
+   A /branches/libxmm2/docs/html/XAgent_8h.html
+   A /branches/libxmm2/docs/html/XAgent_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XAgent_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XAgent_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XAgent_8h__incl.map
+   A /branches/libxmm2/docs/html/XAgent_8h__incl.md5
+   A /branches/libxmm2/docs/html/XAgent_8h__incl.png
+   A /branches/libxmm2/docs/html/XEnvironment_8cpp-source.html
+   A /branches/libxmm2/docs/html/XEnvironment_8cpp.html
+   A /branches/libxmm2/docs/html/XEnvironment_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XEnvironment_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XEnvironment_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XEnvironment_8h-source.html
+   A /branches/libxmm2/docs/html/XEnvironment_8h.html
+   A /branches/libxmm2/docs/html/XEnvironment_8h__incl.map
+   A /branches/libxmm2/docs/html/XEnvironment_8h__incl.md5
+   A /branches/libxmm2/docs/html/XEnvironment_8h__incl.png
+   A /branches/libxmm2/docs/html/XFunctionList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XFunctionList_8cpp.html
+   A /branches/libxmm2/docs/html/XFunctionList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XFunctionList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XFunctionList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XFunctionList_8h-source.html
+   A /branches/libxmm2/docs/html/XFunctionList_8h.html
+   A /branches/libxmm2/docs/html/XFunctionList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XFunctionList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XFunctionList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XFunctionList_8h__incl.map
+   A /branches/libxmm2/docs/html/XFunctionList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XFunctionList_8h__incl.png
+   A /branches/libxmm2/docs/html/XFunction_8cpp-source.html
+   A /branches/libxmm2/docs/html/XFunction_8cpp.html
+   A /branches/libxmm2/docs/html/XFunction_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XFunction_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XFunction_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XFunction_8h-source.html
+   A /branches/libxmm2/docs/html/XFunction_8h.html
+   A /branches/libxmm2/docs/html/XFunction_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XFunction_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XFunction_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XFunction_8h__incl.map
+   A /branches/libxmm2/docs/html/XFunction_8h__incl.md5
+   A /branches/libxmm2/docs/html/XFunction_8h__incl.png
+   A /branches/libxmm2/docs/html/XInMessageList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XInMessageList_8cpp.html
+   A /branches/libxmm2/docs/html/XInMessageList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XInMessageList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XInMessageList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XInMessageList_8h-source.html
+   A /branches/libxmm2/docs/html/XInMessageList_8h.html
+   A /branches/libxmm2/docs/html/XInMessageList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XInMessageList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XInMessageList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XInMessageList_8h__incl.map
+   A /branches/libxmm2/docs/html/XInMessageList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XInMessageList_8h__incl.png
+   A /branches/libxmm2/docs/html/XM_8cpp-source.html
+   A /branches/libxmm2/docs/html/XM_8cpp.html
+   A /branches/libxmm2/docs/html/XM_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XM_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XM_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XM_8h-source.html
+   A /branches/libxmm2/docs/html/XM_8h.html
+   A /branches/libxmm2/docs/html/XM_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XM_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XM_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XM_8h__incl.map
+   A /branches/libxmm2/docs/html/XM_8h__incl.md5
+   A /branches/libxmm2/docs/html/XM_8h__incl.png
+   A /branches/libxmm2/docs/html/XMessageList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XMessageList_8cpp.html
+   A /branches/libxmm2/docs/html/XMessageList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XMessageList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XMessageList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XMessageList_8h-source.html
+   A /branches/libxmm2/docs/html/XMessageList_8h.html
+   A /branches/libxmm2/docs/html/XMessageList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XMessageList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XMessageList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XMessageList_8h__incl.map
+   A /branches/libxmm2/docs/html/XMessageList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XMessageList_8h__incl.png
+   A /branches/libxmm2/docs/html/XMessage_8cpp-source.html
+   A /branches/libxmm2/docs/html/XMessage_8cpp.html
+   A /branches/libxmm2/docs/html/XMessage_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XMessage_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XMessage_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XMessage_8h-source.html
+   A /branches/libxmm2/docs/html/XMessage_8h.html
+   A /branches/libxmm2/docs/html/XMessage_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XMessage_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XMessage_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XMessage_8h__incl.map
+   A /branches/libxmm2/docs/html/XMessage_8h__incl.md5
+   A /branches/libxmm2/docs/html/XMessage_8h__incl.png
+   A /branches/libxmm2/docs/html/XModelList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XModelList_8cpp.html
+   A /branches/libxmm2/docs/html/XModelList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XModelList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XModelList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XModelList_8h-source.html
+   A /branches/libxmm2/docs/html/XModelList_8h.html
+   A /branches/libxmm2/docs/html/XModelList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XModelList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XModelList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XModelList_8h__incl.map
+   A /branches/libxmm2/docs/html/XModelList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XModelList_8h__incl.png
+   A /branches/libxmm2/docs/html/XModel_8cpp-source.html
+   A /branches/libxmm2/docs/html/XModel_8cpp.html
+   A /branches/libxmm2/docs/html/XModel_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XModel_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XModel_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XModel_8h-source.html
+   A /branches/libxmm2/docs/html/XModel_8h.html
+   A /branches/libxmm2/docs/html/XModel_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XModel_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XModel_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XModel_8h__incl.map
+   A /branches/libxmm2/docs/html/XModel_8h__incl.md5
+   A /branches/libxmm2/docs/html/XModel_8h__incl.png
+   A /branches/libxmm2/docs/html/XOutMessageList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XOutMessageList_8cpp.html
+   A /branches/libxmm2/docs/html/XOutMessageList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XOutMessageList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XOutMessageList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XOutMessageList_8h-source.html
+   A /branches/libxmm2/docs/html/XOutMessageList_8h.html
+   A /branches/libxmm2/docs/html/XOutMessageList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XOutMessageList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XOutMessageList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XOutMessageList_8h__incl.map
+   A /branches/libxmm2/docs/html/XOutMessageList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XOutMessageList_8h__incl.png
+   A /branches/libxmm2/docs/html/XVariableList_8cpp-source.html
+   A /branches/libxmm2/docs/html/XVariableList_8cpp.html
+   A /branches/libxmm2/docs/html/XVariableList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XVariableList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XVariableList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XVariableList_8h-source.html
+   A /branches/libxmm2/docs/html/XVariableList_8h.html
+   A /branches/libxmm2/docs/html/XVariableList_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XVariableList_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XVariableList_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XVariableList_8h__incl.map
+   A /branches/libxmm2/docs/html/XVariableList_8h__incl.md5
+   A /branches/libxmm2/docs/html/XVariableList_8h__incl.png
+   A /branches/libxmm2/docs/html/XVariable_8cpp-source.html
+   A /branches/libxmm2/docs/html/XVariable_8cpp.html
+   A /branches/libxmm2/docs/html/XVariable_8cpp__incl.map
+   A /branches/libxmm2/docs/html/XVariable_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/XVariable_8cpp__incl.png
+   A /branches/libxmm2/docs/html/XVariable_8h-source.html
+   A /branches/libxmm2/docs/html/XVariable_8h.html
+   A /branches/libxmm2/docs/html/XVariable_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/XVariable_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/XVariable_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/XVariable_8h__incl.map
+   A /branches/libxmm2/docs/html/XVariable_8h__incl.md5
+   A /branches/libxmm2/docs/html/XVariable_8h__incl.png
+   A /branches/libxmm2/docs/html/annotated.html
+   A /branches/libxmm2/docs/html/auxiliary_8cpp-source.html
+   A /branches/libxmm2/docs/html/auxiliary_8cpp.html
+   A /branches/libxmm2/docs/html/auxiliary_8cpp__incl.map
+   A /branches/libxmm2/docs/html/auxiliary_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/auxiliary_8cpp__incl.png
+   A /branches/libxmm2/docs/html/auxiliary_8h-source.html
+   A /branches/libxmm2/docs/html/auxiliary_8h.html
+   A /branches/libxmm2/docs/html/auxiliary_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/auxiliary_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/auxiliary_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/classXAgent-members.html
+   A /branches/libxmm2/docs/html/classXAgent.html
+   A /branches/libxmm2/docs/html/classXAgentList-members.html
+   A /branches/libxmm2/docs/html/classXAgentList.html
+   A /branches/libxmm2/docs/html/classXAgentList__coll__graph.map
+   A /branches/libxmm2/docs/html/classXAgentList__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXAgentList__coll__graph.png
+   A /branches/libxmm2/docs/html/classXAgentList_d9ae56b1f8d28bf50b42d15b3ecc7ca5_cgraph.map
+   A /branches/libxmm2/docs/html/classXAgentList_d9ae56b1f8d28bf50b42d15b3ecc7ca5_cgraph.md5
+   A /branches/libxmm2/docs/html/classXAgentList_d9ae56b1f8d28bf50b42d15b3ecc7ca5_cgraph.png
+   A /branches/libxmm2/docs/html/classXAgent_7dd4e58bcceda413f9234ebb31f101ef_cgraph.map
+   A /branches/libxmm2/docs/html/classXAgent_7dd4e58bcceda413f9234ebb31f101ef_cgraph.md5
+   A /branches/libxmm2/docs/html/classXAgent_7dd4e58bcceda413f9234ebb31f101ef_cgraph.png
+   A /branches/libxmm2/docs/html/classXAgent__coll__graph.map
+   A /branches/libxmm2/docs/html/classXAgent__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXAgent__coll__graph.png
+   A /branches/libxmm2/docs/html/classXAgent_a20193bff64127a932f11c51b96d0709_cgraph.map
+   A /branches/libxmm2/docs/html/classXAgent_a20193bff64127a932f11c51b96d0709_cgraph.md5
+   A /branches/libxmm2/docs/html/classXAgent_a20193bff64127a932f11c51b96d0709_cgraph.png
+   A /branches/libxmm2/docs/html/classXAgent_ae0eef6842d8b3362dd9884595f75bdc_cgraph.map
+   A /branches/libxmm2/docs/html/classXAgent_ae0eef6842d8b3362dd9884595f75bdc_cgraph.md5
+   A /branches/libxmm2/docs/html/classXAgent_ae0eef6842d8b3362dd9884595f75bdc_cgraph.png
+   A /branches/libxmm2/docs/html/classXAgent_b88248db56e5ffe1fd9729821a8c1971_cgraph.map
+   A /branches/libxmm2/docs/html/classXAgent_b88248db56e5ffe1fd9729821a8c1971_cgraph.md5
+   A /branches/libxmm2/docs/html/classXAgent_b88248db56e5ffe1fd9729821a8c1971_cgraph.png
+   A /branches/libxmm2/docs/html/classXEnvironment-members.html
+   A /branches/libxmm2/docs/html/classXEnvironment.html
+   A /branches/libxmm2/docs/html/classXEnvironment_03d55d686ad6f23346cb8be5a30980ce_cgraph.map
+   A /branches/libxmm2/docs/html/classXEnvironment_03d55d686ad6f23346cb8be5a30980ce_cgraph.md5
+   A /branches/libxmm2/docs/html/classXEnvironment_03d55d686ad6f23346cb8be5a30980ce_cgraph.png
+   A /branches/libxmm2/docs/html/classXEnvironment_1e5ac8a066f949a72ee8d70f42da09c7_cgraph.map
+   A /branches/libxmm2/docs/html/classXEnvironment_1e5ac8a066f949a72ee8d70f42da09c7_cgraph.md5
+   A /branches/libxmm2/docs/html/classXEnvironment_1e5ac8a066f949a72ee8d70f42da09c7_cgraph.png
+   A /branches/libxmm2/docs/html/classXEnvironment__coll__graph.map
+   A /branches/libxmm2/docs/html/classXEnvironment__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXEnvironment__coll__graph.png
+   A /branches/libxmm2/docs/html/classXError-members.html
+   A /branches/libxmm2/docs/html/classXError.html
+   A /branches/libxmm2/docs/html/classXFunction-members.html
+   A /branches/libxmm2/docs/html/classXFunction.html
+   A /branches/libxmm2/docs/html/classXFunctionList-members.html
+   A /branches/libxmm2/docs/html/classXFunctionList.html
+   A /branches/libxmm2/docs/html/classXFunctionList_eaf6ca4c9a411f296dd9eb7899082721_cgraph.map
+   A /branches/libxmm2/docs/html/classXFunctionList_eaf6ca4c9a411f296dd9eb7899082721_cgraph.md5
+   A /branches/libxmm2/docs/html/classXFunctionList_eaf6ca4c9a411f296dd9eb7899082721_cgraph.png
+   A /branches/libxmm2/docs/html/classXFunction_137eec8b93e887c7656b9759117a83ca_cgraph.map
+   A /branches/libxmm2/docs/html/classXFunction_137eec8b93e887c7656b9759117a83ca_cgraph.md5
+   A /branches/libxmm2/docs/html/classXFunction_137eec8b93e887c7656b9759117a83ca_cgraph.png
+   A /branches/libxmm2/docs/html/classXFunction_3d776b95cf99aec2918396681b2c1136_cgraph.map
+   A /branches/libxmm2/docs/html/classXFunction_3d776b95cf99aec2918396681b2c1136_cgraph.md5
+   A /branches/libxmm2/docs/html/classXFunction_3d776b95cf99aec2918396681b2c1136_cgraph.png
+   A /branches/libxmm2/docs/html/classXFunction__coll__graph.map
+   A /branches/libxmm2/docs/html/classXFunction__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXFunction__coll__graph.png
+   A /branches/libxmm2/docs/html/classXInMessageList-members.html
+   A /branches/libxmm2/docs/html/classXInMessageList.html
+   A /branches/libxmm2/docs/html/classXInMessageList__coll__graph.map
+   A /branches/libxmm2/docs/html/classXInMessageList__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXInMessageList__coll__graph.png
+   A /branches/libxmm2/docs/html/classXMessage-members.html
+   A /branches/libxmm2/docs/html/classXMessage.html
+   A /branches/libxmm2/docs/html/classXMessageList-members.html
+   A /branches/libxmm2/docs/html/classXMessageList.html
+   A /branches/libxmm2/docs/html/classXMessageList__coll__graph.map
+   A /branches/libxmm2/docs/html/classXMessageList__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXMessageList__coll__graph.png
+   A /branches/libxmm2/docs/html/classXMessage_74808c0a95ac6928067cedb79ae228fe_cgraph.map
+   A /branches/libxmm2/docs/html/classXMessage_74808c0a95ac6928067cedb79ae228fe_cgraph.md5
+   A /branches/libxmm2/docs/html/classXMessage_74808c0a95ac6928067cedb79ae228fe_cgraph.png
+   A /branches/libxmm2/docs/html/classXMessage__coll__graph.map
+   A /branches/libxmm2/docs/html/classXMessage__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXMessage__coll__graph.png
+   A /branches/libxmm2/docs/html/classXModel-members.html
+   A /branches/libxmm2/docs/html/classXModel.html
+   A /branches/libxmm2/docs/html/classXModelList-members.html
+   A /branches/libxmm2/docs/html/classXModelList.html
+   A /branches/libxmm2/docs/html/classXModelList_1f1a27efe26acc35fd501b2bb4b9c9a5_cgraph.map
+   A /branches/libxmm2/docs/html/classXModelList_1f1a27efe26acc35fd501b2bb4b9c9a5_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModelList_1f1a27efe26acc35fd501b2bb4b9c9a5_cgraph.png
+   A /branches/libxmm2/docs/html/classXModelList_8da57e406d709d520e71ce02c0006de5_cgraph.map
+   A /branches/libxmm2/docs/html/classXModelList_8da57e406d709d520e71ce02c0006de5_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModelList_8da57e406d709d520e71ce02c0006de5_cgraph.png
+   A /branches/libxmm2/docs/html/classXModelList__coll__graph.map
+   A /branches/libxmm2/docs/html/classXModelList__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXModelList__coll__graph.png
+   A /branches/libxmm2/docs/html/classXModel_239fbf88985b2b0a201a5e5c50f73749_cgraph.map
+   A /branches/libxmm2/docs/html/classXModel_239fbf88985b2b0a201a5e5c50f73749_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModel_239fbf88985b2b0a201a5e5c50f73749_cgraph.png
+   A /branches/libxmm2/docs/html/classXModel_3a288ba8e10501cc8eca4d69b411ab30_cgraph.map
+   A /branches/libxmm2/docs/html/classXModel_3a288ba8e10501cc8eca4d69b411ab30_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModel_3a288ba8e10501cc8eca4d69b411ab30_cgraph.png
+   A /branches/libxmm2/docs/html/classXModel_4f9c21d27df2e5f8821a3539b47a53aa_cgraph.map
+   A /branches/libxmm2/docs/html/classXModel_4f9c21d27df2e5f8821a3539b47a53aa_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModel_4f9c21d27df2e5f8821a3539b47a53aa_cgraph.png
+   A /branches/libxmm2/docs/html/classXModel_85e419196d89814a859d6baca33a6817_cgraph.map
+   A /branches/libxmm2/docs/html/classXModel_85e419196d89814a859d6baca33a6817_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModel_85e419196d89814a859d6baca33a6817_cgraph.png
+   A /branches/libxmm2/docs/html/classXModel_8ab2387737087339130046e8325c06a0_cgraph.map
+   A /branches/libxmm2/docs/html/classXModel_8ab2387737087339130046e8325c06a0_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModel_8ab2387737087339130046e8325c06a0_cgraph.png
+   A /branches/libxmm2/docs/html/classXModel__coll__graph.map
+   A /branches/libxmm2/docs/html/classXModel__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXModel__coll__graph.png
+   A /branches/libxmm2/docs/html/classXModel_b3d56f84ccb0e85ee5f6cc9f2f34d131_cgraph.map
+   A /branches/libxmm2/docs/html/classXModel_b3d56f84ccb0e85ee5f6cc9f2f34d131_cgraph.md5
+   A /branches/libxmm2/docs/html/classXModel_b3d56f84ccb0e85ee5f6cc9f2f34d131_cgraph.png
+   A /branches/libxmm2/docs/html/classXOutMessageList-members.html
+   A /branches/libxmm2/docs/html/classXOutMessageList.html
+   A /branches/libxmm2/docs/html/classXOutMessageList__coll__graph.map
+   A /branches/libxmm2/docs/html/classXOutMessageList__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXOutMessageList__coll__graph.png
+   A /branches/libxmm2/docs/html/classXVariable-members.html
+   A /branches/libxmm2/docs/html/classXVariable.html
+   A /branches/libxmm2/docs/html/classXVariableList-members.html
+   A /branches/libxmm2/docs/html/classXVariableList.html
+   A /branches/libxmm2/docs/html/classXVariable_7e7aa74b22f3bc2f7157d740a036b6a4_cgraph.map
+   A /branches/libxmm2/docs/html/classXVariable_7e7aa74b22f3bc2f7157d740a036b6a4_cgraph.md5
+   A /branches/libxmm2/docs/html/classXVariable_7e7aa74b22f3bc2f7157d740a036b6a4_cgraph.png
+   A /branches/libxmm2/docs/html/classXVariable__coll__graph.map
+   A /branches/libxmm2/docs/html/classXVariable__coll__graph.md5
+   A /branches/libxmm2/docs/html/classXVariable__coll__graph.png
+   A /branches/libxmm2/docs/html/doxygen.css
+   A /branches/libxmm2/docs/html/doxygen.png
+   A /branches/libxmm2/docs/html/errors_8h-source.html
+   A /branches/libxmm2/docs/html/errors_8h.html
+   A /branches/libxmm2/docs/html/errors_8h__dep__incl.map
+   A /branches/libxmm2/docs/html/errors_8h__dep__incl.md5
+   A /branches/libxmm2/docs/html/errors_8h__dep__incl.png
+   A /branches/libxmm2/docs/html/errors_8h__incl.map
+   A /branches/libxmm2/docs/html/errors_8h__incl.md5
+   A /branches/libxmm2/docs/html/errors_8h__incl.png
+   A /branches/libxmm2/docs/html/files.html
+   A /branches/libxmm2/docs/html/functions.html
+   A /branches/libxmm2/docs/html/functions_0x63.html
+   A /branches/libxmm2/docs/html/functions_0x64.html
+   A /branches/libxmm2/docs/html/functions_0x65.html
+   A /branches/libxmm2/docs/html/functions_0x66.html
+   A /branches/libxmm2/docs/html/functions_0x67.html
+   A /branches/libxmm2/docs/html/functions_0x6d.html
+   A /branches/libxmm2/docs/html/functions_0x6e.html
+   A /branches/libxmm2/docs/html/functions_0x70.html
+   A /branches/libxmm2/docs/html/functions_0x72.html
+   A /branches/libxmm2/docs/html/functions_0x73.html
+   A /branches/libxmm2/docs/html/functions_0x74.html
+   A /branches/libxmm2/docs/html/functions_0x76.html
+   A /branches/libxmm2/docs/html/functions_0x78.html
+   A /branches/libxmm2/docs/html/functions_0x7e.html
+   A /branches/libxmm2/docs/html/functions_enum.html
+   A /branches/libxmm2/docs/html/functions_eval.html
+   A /branches/libxmm2/docs/html/functions_func.html
+   A /branches/libxmm2/docs/html/functions_vars.html
+   A /branches/libxmm2/docs/html/globals.html
+   A /branches/libxmm2/docs/html/globals_8h-source.html
+   A /branches/libxmm2/docs/html/globals_8h.html
+   A /branches/libxmm2/docs/html/globals_defs.html
+   A /branches/libxmm2/docs/html/globals_func.html
+   A /branches/libxmm2/docs/html/globals_vars.html
+   A /branches/libxmm2/docs/html/graph_legend.dot
+   A /branches/libxmm2/docs/html/graph_legend.html
+   A /branches/libxmm2/docs/html/graph_legend.png
+   A /branches/libxmm2/docs/html/index.html
+   A /branches/libxmm2/docs/html/moc__XAgentList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XAgentList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XAgentList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XAgentList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XAgentList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XAgent_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XAgent_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XAgent_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XAgent_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XAgent_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XFunctionList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XFunctionList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XFunctionList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XFunctionList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XFunctionList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XFunction_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XFunction_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XFunction_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XFunction_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XFunction_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XInMessageList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XInMessageList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XInMessageList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XInMessageList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XInMessageList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XMessageList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XMessageList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XMessageList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XMessageList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XMessageList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XMessage_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XMessage_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XMessage_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XMessage_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XMessage_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XModelList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XModelList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XModelList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XModelList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XModelList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XModel_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XModel_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XModel_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XModel_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XModel_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XOutMessageList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XOutMessageList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XOutMessageList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XOutMessageList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XOutMessageList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XVariableList_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XVariableList_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XVariableList_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XVariableList_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XVariableList_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__XVariable_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__XVariable_8cpp.html
+   A /branches/libxmm2/docs/html/moc__XVariable_8cpp__incl.map
+   A /branches/libxmm2/docs/html/moc__XVariable_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/moc__XVariable_8cpp__incl.png
+   A /branches/libxmm2/docs/html/moc__errors_8cpp-source.html
+   A /branches/libxmm2/docs/html/moc__errors_8cpp.html
+   A /branches/libxmm2/docs/html/moc__errors_8cpp__incl.md5
+   A /branches/libxmm2/docs/html/namespaceXM.html
+   A /branches/libxmm2/docs/html/namespacemembers.html
+   A /branches/libxmm2/docs/html/namespacemembers_enum.html
+   A /branches/libxmm2/docs/html/namespacemembers_eval.html
+   A /branches/libxmm2/docs/html/namespaces.html
+   A /branches/libxmm2/docs/html/tab_b.gif
+   A /branches/libxmm2/docs/html/tab_l.gif
+   A /branches/libxmm2/docs/html/tab_r.gif
+   A /branches/libxmm2/docs/html/tabs.css
+   A /branches/libxmm2/include
+   A /branches/libxmm2/include/XAgent.h
+   A /branches/libxmm2/include/XAgentList.h
+   A /branches/libxmm2/include/XEnvironment.h
+   A /branches/libxmm2/include/XFunction.h
+   A /branches/libxmm2/include/XFunctionList.h
+   A /branches/libxmm2/include/XIOMessage.h
+   A /branches/libxmm2/include/XInMessageList.h
+   A /branches/libxmm2/include/XM.h
+   A /branches/libxmm2/include/XMessage.h
+   A /branches/libxmm2/include/XMessageList.h
+   A /branches/libxmm2/include/XModel.h
+   A /branches/libxmm2/include/XModelList.h
+   A /branches/libxmm2/include/XOutMessageList.h
+   A /branches/libxmm2/include/XVariable.h
+   A /branches/libxmm2/include/XVariableList.h
+   A /branches/libxmm2/include/auxiliary.h
+   A /branches/libxmm2/include/errors.h
+   A /branches/libxmm2/include/globals.h
+   A /branches/libxmm2/lib
+   A /branches/libxmm2/lib/libxmm2.so
+   A /branches/libxmm2/lib/libxmm2.so.0
+   A /branches/libxmm2/lib/libxmm2.so.0.0
+   A /branches/libxmm2/lib/libxmm2.so.0.0.2
+   A /branches/libxmm2/libxmm2.pro
+   A /branches/libxmm2/src
+   A /branches/libxmm2/src/XAgent.cpp
+   A /branches/libxmm2/src/XAgentList.cpp
+   A /branches/libxmm2/src/XEnvironment.cpp
+   A /branches/libxmm2/src/XFunction.cpp
+   A /branches/libxmm2/src/XFunctionList.cpp
+   A /branches/libxmm2/src/XIOMessage.cpp
+   A /branches/libxmm2/src/XInMessageList.cpp
+   A /branches/libxmm2/src/XMessage.cpp
+   A /branches/libxmm2/src/XMessageList.cpp
+   A /branches/libxmm2/src/XModel.cpp
+   A /branches/libxmm2/src/XModelList.cpp
+   A /branches/libxmm2/src/XOutMessageList.cpp
+   A /branches/libxmm2/src/XVariable.cpp
+   A /branches/libxmm2/src/XVariableList.cpp
+   A /branches/libxmm2/src/auxiliary.cpp
+
+initial ci for refined model
+------------------------------------------------------------------------
+r19 | vst | 2008-07-09 22:18:32 +0300 (Wed, 09 Jul 2008) | 1 line
+Changed paths:
+   A /tags/libxmm2_v0.0.1 (from /trunk:5)
+   A /tags/libxmm2_v0.0.1/LICENSE (from /trunk/LICENSE:7)
+   R /tags/libxmm2_v0.0.1/demo/demo.pro (from /trunk/demo/demo.pro:18)
+   R /tags/libxmm2_v0.0.1/demo/main.cpp (from /trunk/demo/main.cpp:18)
+   A /tags/libxmm2_v0.0.1/headache.cfg (from /trunk/headache.cfg:7)
+   A /tags/libxmm2_v0.0.1/header.txt (from /trunk/header.txt:7)
+   R /tags/libxmm2_v0.0.1/include/XAgent.hpp (from /trunk/include/XAgent.hpp:10)
+   R /tags/libxmm2_v0.0.1/include/XContext.hpp (from /trunk/include/XContext.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XDataType.hpp (from /trunk/include/XDataType.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XEnvironment.hpp (from /trunk/include/XEnvironment.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XFunction.hpp (from /trunk/include/XFunction.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XInput.hpp (from /trunk/include/XInput.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XMemory.hpp (from /trunk/include/XMemory.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XMessage.hpp (from /trunk/include/XMessage.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XModel.hpp (from /trunk/include/XModel.hpp:13)
+   R /tags/libxmm2_v0.0.1/include/XOutput.hpp (from /trunk/include/XOutput.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XRole.hpp (from /trunk/include/XRole.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XTemplate.hpp (from /trunk/include/XTemplate.hpp:7)
+   A /tags/libxmm2_v0.0.1/include/XTimeUnit.hpp (from /trunk/include/XTimeUnit.hpp:7)
+   R /tags/libxmm2_v0.0.1/include/XVariable.hpp (from /trunk/include/XVariable.hpp:15)
+   A /tags/libxmm2_v0.0.1/include/auxiliary.hpp (from /trunk/include/auxiliary.hpp:7)
+   A /tags/libxmm2_v0.0.1/include/errors.hpp (from /trunk/include/errors.hpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XAgent.cpp (from /trunk/lib/XAgent.cpp:10)
+   R /tags/libxmm2_v0.0.1/lib/XContext.cpp (from /trunk/lib/XContext.cpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XDataType.cpp (from /trunk/lib/XDataType.cpp:8)
+   R /tags/libxmm2_v0.0.1/lib/XEnvironment.cpp (from /trunk/lib/XEnvironment.cpp:8)
+   R /tags/libxmm2_v0.0.1/lib/XFunction.cpp (from /trunk/lib/XFunction.cpp:8)
+   R /tags/libxmm2_v0.0.1/lib/XInput.cpp (from /trunk/lib/XInput.cpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XMemory.cpp (from /trunk/lib/XMemory.cpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XMessage.cpp (from /trunk/lib/XMessage.cpp:8)
+   R /tags/libxmm2_v0.0.1/lib/XModel.cpp (from /trunk/lib/XModel.cpp:14)
+   R /tags/libxmm2_v0.0.1/lib/XOutput.cpp (from /trunk/lib/XOutput.cpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XRole.cpp (from /trunk/lib/XRole.cpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XTemplate.cpp (from /trunk/lib/XTemplate.cpp:7)
+   A /tags/libxmm2_v0.0.1/lib/XTimeUnit.cpp (from /trunk/lib/XTimeUnit.cpp:7)
+   R /tags/libxmm2_v0.0.1/lib/XVariable.cpp (from /trunk/lib/XVariable.cpp:17)
+   A /tags/libxmm2_v0.0.1/lib/auxiliary.cpp (from /trunk/lib/auxiliary.cpp:7)
+   R /tags/libxmm2_v0.0.1/libxmm2.pro (from /trunk/libxmm2.pro:6)
+
+tagged an old release
+------------------------------------------------------------------------
+r18 | (no author) | 2008-05-09 13:37:40 +0300 (Fri, 09 May 2008) | 1 line
+Changed paths:
+   M /trunk/demo/demo.pro
+   M /trunk/demo/main.cpp
+
+demo does not require GUI
+------------------------------------------------------------------------
+r17 | (no author) | 2008-05-08 22:04:34 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/lib/XVariable.cpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r16 | (no author) | 2008-05-08 21:56:39 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/lib/XVariable.cpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r15 | (no author) | 2008-05-08 21:55:27 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/include/XVariable.hpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r14 | (no author) | 2008-05-08 21:54:48 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/include/XVariable.hpp
+   M /trunk/lib/XModel.cpp
+   M /trunk/lib/XVariable.cpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r13 | (no author) | 2008-05-08 21:50:30 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/include/XModel.hpp
+   M /trunk/lib/XModel.cpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r12 | (no author) | 2008-05-08 21:49:05 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/lib/XVariable.cpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r11 | (no author) | 2008-05-08 21:47:42 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/lib/XVariable.cpp
+
+qt4.2 compatible now
+------------------------------------------------------------------------
+r10 | (no author) | 2008-05-08 21:44:15 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/include/XAgent.hpp
+   M /trunk/lib/XAgent.cpp
+   M /trunk/lib/XModel.cpp
+   M /trunk/lib/XVariable.cpp
+
+default parameters fixed
+------------------------------------------------------------------------
+r9 | (no author) | 2008-05-08 21:30:02 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/lib/XModel.cpp
+   M /trunk/lib/XVariable.cpp
+
+conflicts with different colours
+------------------------------------------------------------------------
+r8 | (no author) | 2008-05-08 21:15:46 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/include/XAgent.hpp
+   M /trunk/include/XModel.hpp
+   M /trunk/include/XVariable.hpp
+   M /trunk/lib/XAgent.cpp
+   M /trunk/lib/XDataType.cpp
+   M /trunk/lib/XEnvironment.cpp
+   M /trunk/lib/XFunction.cpp
+   M /trunk/lib/XMessage.cpp
+   M /trunk/lib/XModel.cpp
+   M /trunk/lib/XVariable.cpp
+
+messages checked for duplicates
+------------------------------------------------------------------------
+r7 | (no author) | 2008-05-08 18:34:08 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   A /trunk/LICENSE
+   M /trunk/demo/main.cpp
+   A /trunk/headache.cfg
+   A /trunk/header.txt
+   M /trunk/include/XAgent.hpp
+   M /trunk/include/XContext.hpp
+   M /trunk/include/XDataType.hpp
+   M /trunk/include/XEnvironment.hpp
+   M /trunk/include/XFunction.hpp
+   M /trunk/include/XInput.hpp
+   M /trunk/include/XMemory.hpp
+   M /trunk/include/XMessage.hpp
+   M /trunk/include/XModel.hpp
+   M /trunk/include/XOutput.hpp
+   M /trunk/include/XRole.hpp
+   M /trunk/include/XTemplate.hpp
+   M /trunk/include/XTimeUnit.hpp
+   M /trunk/include/XVariable.hpp
+   M /trunk/include/auxiliary.hpp
+   M /trunk/include/errors.hpp
+   M /trunk/lib/XAgent.cpp
+   M /trunk/lib/XContext.cpp
+   M /trunk/lib/XDataType.cpp
+   M /trunk/lib/XEnvironment.cpp
+   M /trunk/lib/XFunction.cpp
+   M /trunk/lib/XInput.cpp
+   M /trunk/lib/XMemory.cpp
+   M /trunk/lib/XMessage.cpp
+   M /trunk/lib/XModel.cpp
+   M /trunk/lib/XOutput.cpp
+   M /trunk/lib/XRole.cpp
+   M /trunk/lib/XTemplate.cpp
+   M /trunk/lib/XTimeUnit.cpp
+   M /trunk/lib/XVariable.cpp
+   M /trunk/lib/auxiliary.cpp
+
+License and related messages added
+------------------------------------------------------------------------
+r6 | (no author) | 2008-05-08 18:32:06 +0300 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/demo/main.cpp
+   M /trunk/include/XAgent.hpp
+   M /trunk/include/XDataType.hpp
+   M /trunk/include/XEnvironment.hpp
+   M /trunk/include/XFunction.hpp
+   M /trunk/include/XMessage.hpp
+   M /trunk/include/XModel.hpp
+   A /trunk/include/XTimeUnit.hpp
+   M /trunk/include/XVariable.hpp
+   A /trunk/include/auxiliary.hpp
+   A /trunk/include/errors.hpp
+   M /trunk/lib/XAgent.cpp
+   M /trunk/lib/XDataType.cpp
+   M /trunk/lib/XEnvironment.cpp
+   M /trunk/lib/XFunction.cpp
+   M /trunk/lib/XMessage.cpp
+   M /trunk/lib/XModel.cpp
+   A /trunk/lib/XTimeUnit.cpp
+   M /trunk/lib/XVariable.cpp
+   A /trunk/lib/auxiliary.cpp
+   M /trunk/libxmm2.pro
+
+libxmm2 elaborated. Not ready yet for production purposes. Roles and Contexts not yet implemented
+------------------------------------------------------------------------
+r5 | vst | 2008-05-07 16:41:35 +0300 (Wed, 07 May 2008) | 1 line
+Changed paths:
+   D /bin
+   A /branches
+   D /compilation
+   D /config
+   D /demo
+   D /doc
+   D /include
+   D /lib
+   D /libxmm2.pro
+   A /tags
+   D /target
+   D /test
+   D /tmp
+   A /trunk
+   A /trunk/bin (from /bin:4)
+   A /trunk/compilation (from /compilation:4)
+   A /trunk/config (from /config:4)
+   A /trunk/demo (from /demo:4)
+   A /trunk/doc (from /doc:4)
+   A /trunk/include (from /include:4)
+   A /trunk/lib (from /lib:4)
+   A /trunk/libxmm2.pro (from /libxmm2.pro:4)
+   A /trunk/target (from /target:4)
+   A /trunk/test (from /test:4)
+   A /trunk/tmp (from /tmp:4)
+
+layout extended for branches and tags
+------------------------------------------------------------------------
+r4 | vst | 2008-05-06 16:42:56 +0300 (Tue, 06 May 2008) | 1 line
+Changed paths:
+   A /demo/demo.pro
+   A /demo/main.cpp
+
+a simple demo aded
+------------------------------------------------------------------------
+r3 | vst | 2008-05-06 16:41:34 +0300 (Tue, 06 May 2008) | 1 line
+Changed paths:
+   A /include/XEnvironment.hpp
+   A /lib/XEnvironment.cpp
+
+XEnvironment added
+------------------------------------------------------------------------
+r2 | vst | 2008-05-06 16:40:36 +0300 (Tue, 06 May 2008) | 1 line
+Changed paths:
+   A /include/XAgent.hpp (from /include/XMachine.hpp:1)
+   D /include/XMachine.hpp
+   M /include/XModel.hpp
+   A /lib/XAgent.cpp (from /lib/XMachine.cpp:1)
+   D /lib/XMachine.cpp
+   M /lib/XModel.cpp
+   M /libxmm2.pro
+
+xmodel reads in the data
+------------------------------------------------------------------------
+r1 | vst | 2008-05-05 16:59:03 +0300 (Mon, 05 May 2008) | 1 line
+Changed paths:
+   A /bin
+   A /bin/generate_from_template.sh
+   A /compilation
+   A /compilation/moc
+   A /compilation/objects
+   A /compilation/rcc
+   A /compilation/ui
+   A /config
+   A /config/headache.cfg
+   A /config/license-header
+   A /demo
+   A /doc
+   A /include
+   A /include/XContext.hpp
+   A /include/XDataType.hpp
+   A /include/XFunction.hpp
+   A /include/XInput.hpp
+   A /include/XMachine.hpp
+   A /include/XMemory.hpp
+   A /include/XMessage.hpp
+   A /include/XModel.hpp
+   A /include/XOutput.hpp
+   A /include/XRole.hpp
+   A /include/XTemplate.hpp
+   A /include/XVariable.hpp
+   A /lib
+   A /lib/XContext.cpp
+   A /lib/XDataType.cpp
+   A /lib/XFunction.cpp
+   A /lib/XInput.cpp
+   A /lib/XMachine.cpp
+   A /lib/XMemory.cpp
+   A /lib/XMessage.cpp
+   A /lib/XModel.cpp
+   A /lib/XOutput.cpp
+   A /lib/XRole.cpp
+   A /lib/XTemplate.cpp
+   A /lib/XVariable.cpp
+   A /libxmm2.pro
+   A /target
+   A /test
+   A /tmp
+
+initial ciu
+------------------------------------------------------------------------
