@@ -10,29 +10,34 @@ on both Ubuntu and Mac OSX.
     # Get build tools:
     sudo apt-get install qt4-dev-tools libqscintilla2-dev
 
-    # Compile
+    # Compile:
     qmake build.pro
     make
 
-    # Run
+    # Run:
     LD_LIBRARY_PATH=libxmm2/lib/ ./xmme/compilation/agentgui
 
-    # Install
+    # Install:
     sudo cp libxmm2/lib/* /usr/lib/
     sudo cp xmme/compilation/agentgui /usr/bin/
 
-### On Mac OSX
+## On Mac OSX
 
     # Get build tools:
     brew install qt4
     brew install qscintilla2
 
-    # Compile
+    # Compile:
     /usr/local/Cellar/qt/4.8.5/bin/qmake build.pro
     /usr/local/Cellar/qt/4.8.5/bin/macdeployqt xmme/compilation/agentgui.app
 
-    # Run
+    # Run:
     open /xmme/compilation/agentgui.app
 
     # Create a dmg:
     /usr/local/Cellar/qt/4.8.5/bin/macdeployqt xmme/compilation/agentgui.app -dmg
+
+## Further Links:
+
+1. [http://www.eurace.org](http://www.eurace.org)
+2. [http://www.flame.ac.uk](http://www.flame.ac.uk)
