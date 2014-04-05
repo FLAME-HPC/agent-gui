@@ -5,6 +5,8 @@ An Editor for X-Machines Markup Language.
 This is a quick quide on how to compile, run, install the application
 on both Ubuntu and Mac OSX.
 
+![https://dl.dropboxusercontent.com/u/14420846/github/agentgui.png](https://dl.dropboxusercontent.com/u/14420846/github/agentgui.png)
+
 ## On Ubuntu Linux
 
     # Get build tools:
