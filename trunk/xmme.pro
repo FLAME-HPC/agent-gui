@@ -4,10 +4,12 @@ INCLUDEPATH += "." "../libxmm2/include/"
 TARGET = agentgui
 
 unix {
-    LIBS += -lxmm2 -L../libxmm2/lib/
+    LIBS += -lxmm2 -L"../libxmm2/lib/"
     LIBS += -lqscintilla2
     CONFIG += debug
-    INCLUDEPATH += "/usr/include/qt4/Qsci/" "/usr/local/Cellar/qscintilla2/2.8/include/Qsci/"
+    INCLUDEPATH += "/usr/include/qt4/Qsci/" \
+      "/usr/local/Cellar/qscintilla2/2.8/include/" \
+      "/usr/local/Cellar/qscintilla2/2.8/include/Qsci"
 }
 
 win32 {
@@ -19,6 +21,7 @@ win32 {
 }
 
 QT += xml
+QT += widgets
 
 # Input
 FORMS += \
