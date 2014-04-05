@@ -1,13 +1,13 @@
 TEMPLATE = app
 DEPENDPATH += "." "src"
-INCLUDEPATH += "." "../../libxmm2/trunk/include/"
+INCLUDEPATH += "." "../libxmm2/include/"
 TARGET = agentgui
 
 unix {
-    LIBS += -lxmm2 -L../../libxmm2/trunk/lib/
+    LIBS += -lxmm2 -L../libxmm2/lib/
     LIBS += -lqscintilla2
     CONFIG += debug
-    INCLUDEPATH += "/usr/include/qt4/Qsci/"
+    INCLUDEPATH += "/usr/include/qt4/Qsci/" "/usr/local/Cellar/qscintilla2/2.8/include/Qsci/"
 }
 
 win32 {
@@ -19,7 +19,6 @@ win32 {
 }
 
 QT += xml
-
 
 # Input
 FORMS += \
@@ -70,4 +69,4 @@ UI_DIR = "./compilation"
 UI_HEADERS_DIR = "./compilation"
 UI_SOURCES_DIR = "./compilation"
 
-include(../../modeltest/modeltest.pri)
+#include(../../modeltest/modeltest.pri)

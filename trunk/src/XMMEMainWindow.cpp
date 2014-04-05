@@ -32,7 +32,7 @@
 #include "XWidgetEditVariable.h"
 #include "globals.h"
 #include <XModel.h>
-#include <modeltest.h>
+//#include <modeltest.h>
 #include <qmessagebox.h>
 #include <qregexp.h>
 #include <qprocess.h>
@@ -62,7 +62,7 @@ XMMEMainWindow::XMMEMainWindow(QString filePath){
   connect(actionSave, SIGNAL(triggered()), this, SLOT(actionSlotSave()));
   connect(actionQuoit, SIGNAL(triggered()), this, SLOT(actionSlotQuit()));
   connect(actionAbout, SIGNAL(triggered()), this, SLOT(actionSlotAbout()));
-  
+
   toolBar->addAction(actionNew);
   toolBar->addAction(actionOpen);
   toolBar->addAction(actionSave);
@@ -80,9 +80,9 @@ XMMEMainWindow::XMMEMainWindow(QString filePath){
 	///////////////////////////////////////
 	// CREATE and SET THE MODEL FOR VIEW //
 	///////////////////////////////////////
-	
+
 	this->viewModel = new XModelTree(this->model);
-	new ModelTest(this->viewModel, this);
+	//new ModelTest(this->viewModel, this);
 	this->modelView->setModel(this->viewModel);
 	this->informationView->setHtml(model->toHTML());
   }
@@ -92,16 +92,16 @@ XMMEMainWindow::XMMEMainWindow(QString filePath){
 	///////////////////////////////////////
 	// CREATE and SET THE MODEL FOR VIEW //
 	///////////////////////////////////////
-	
+
 	this->viewModel = new XModelTree(this->model);
-	new ModelTest(this->viewModel, this);
+	//new ModelTest(this->viewModel, this);
 	this->modelView->setModel(this->viewModel);
 	this->informationView->setHtml(model->toHTML());
   }
   ////////////////
   // START VIEW //
   ////////////////
-  
+
   this->modelView->setParentWindow(this);
 }
 
@@ -149,7 +149,7 @@ void XMMEMainWindow::editModel(XModel *model, const QModelIndex &index){
   XWidgetEditModel* editWidget = new XWidgetEditModel(model, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -160,7 +160,7 @@ void XMMEMainWindow::editAgent(XAgent *agent, const QModelIndex &index){
   XWidgetEditAgent* editWidget = new XWidgetEditAgent(agent, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -171,7 +171,7 @@ void XMMEMainWindow::editVariable(XVariable *variable, const QModelIndex &index)
   XWidgetEditVariable* editWidget = new XWidgetEditVariable(variable, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -182,7 +182,7 @@ void XMMEMainWindow::editFunction(XFunction *function, const QModelIndex &index)
   XWidgetEditFunction* editWidget = new XWidgetEditFunction(function, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -193,7 +193,7 @@ void XMMEMainWindow::editMessage(XMessage *message, const QModelIndex &index){
   XWidgetEditMessage* editWidget = new XWidgetEditMessage(message, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -204,7 +204,7 @@ void XMMEMainWindow::editIOMessage(XIOMessage *IOmessage, const QModelIndex &ind
   XWidgetEditIOMessage* editWidget = new XWidgetEditIOMessage(IOmessage, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -215,7 +215,7 @@ void XMMEMainWindow::editInputMessages(XInMessageList *inList, const QModelIndex
   XWidgetEditFunctionInMessages* editWidget = new XWidgetEditFunctionInMessages(inList, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -226,7 +226,7 @@ void XMMEMainWindow::editOutputMessages(XOutMessageList *outList, const QModelIn
   XWidgetEditFunctionOutMessages* editWidget = new XWidgetEditFunctionOutMessages(outList, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -237,7 +237,7 @@ void XMMEMainWindow::editTimeUnit(XTimeUnit *timeUnit, const QModelIndex &index)
   XWidgetEditTimeUnit* editWidget = new XWidgetEditTimeUnit(timeUnit, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -248,7 +248,7 @@ void XMMEMainWindow::editFile(XFile *file, const QModelIndex &index){
   XWidgetEditFile* editWidget = new XWidgetEditFile(file, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -259,7 +259,7 @@ void XMMEMainWindow::editDataType(XDataType *dataType, const QModelIndex &index)
   XWidgetEditDataType* editWidget = new XWidgetEditDataType(dataType, index);
   layout->addWidget(editWidget);
   this->editing->setLayout(layout);
-  
+
   connect(editWidget, SIGNAL(dataChanged(const QModelIndex &)), this, SLOT(dataChanged(const QModelIndex &)));
 }
 
@@ -330,7 +330,7 @@ void XMMEMainWindow::actionSlotQuit(){
 void XMMEMainWindow::actionSlotAbout(){
   QMessageBox::information(0, SOFTWARE_NAME,
 						   QString("AgentGUI - X Machines Modeling Editor (a.k.a XMME)\n\n")+
-						   "Developed by TUBITAK/UEAKE\n" + 
+						   "Developed by TUBITAK/UEAKE\n" +
 						   "For feedbacks and feature requests:\n" +
 						   "Vehbi Sinan Tunalioglu <vst@vsthost.com>\n\n"
 						   "Version of this build is: " +
